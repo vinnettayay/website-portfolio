@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanyeaa's Portfolio</title>
+    <meta name="description" content="Portfolio of Fanya Arthalita Fauzi, a Game Programmer specializing in Gameplay, Systems, and Tools Development.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+    <!-- Page Transition Curtain -->
+    <div class="page-transition-curtain" id="page-curtain"></div>
+
+    <!-- Atmospheric Purple Canvas & Decorative Red Accents -->
+    <div class="bg-environment">
+        <div class="bg-blob blob-1"></div>
+        <div class="bg-blob blob-2"></div>
+        <div class="bg-noise"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-accent">❖</span> Fanya Arthalita Fauzi
+            </a>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active" data-nav="home">HOME</a></li>
+                    <li><a href="about.html" class="nav-link" data-nav="about">ABOUT</a></li>
+                    <li><a href="about.html#contact" class="nav-link" data-nav="contact">CONTACT</a></li>
+                    <li><a href="assets/cv//your-cv.pdf" class="nav-btn-cv" target="_blank" download>CV ↘</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="top">
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <!-- Red Graphic Accent Decoration -->
+                <svg class="hero-red-accent" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <circle cx="60" cy="60" r="50" stroke="#d83b52" stroke-width="2" stroke-dasharray="8 6" />
+                    <rect x="45" y="45" width="30" height="30" fill="#d83b52" transform="rotate(45 60 60)" opacity="0.6"/>
+                </svg>
+
+                <div class="hero-tag">WELCOME, PLAYER</div>
+                
+                <h1 class="hero-title">
+                    Hi! I'm <span class="text-highlight">Fanya Arthalita Fauzi</span>
+                </h1>
+                
+                <p class="hero-statement">
+                    I make games,<br>Sometimes, the bugs make games too.
+                </p>
+
+                <div class="hero-action">
+                    <a href="#projects" class="btn btn-primary">
+                        Dive Into My Work <span class="btn-arrow">↓</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">Projects</div>
+                    <h2 class="section-title">CHECK OUT WHAT I DID</h2>
+                </div>
+
+                <!-- Projects Dynamic Layout Container -->
+                <div class="projects-asymmetric-grid" id="projects-container">
+                    <!-- Javascript Dynamic Cards Injected Here -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p class="copyright">&copy; 2026 Fanya Arthalita Fauzi. All rights reserved.</p>
+                <p class="footer-role">Game Programmer &amp; Unity Developer</p>
+            </div>
+            <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+                <span>Top</span> ↑
+            </button>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

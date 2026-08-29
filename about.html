@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Fanyeaa</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+    <!-- Page Transition Curtain -->
+    <div class="page-transition-curtain" id="page-curtain"></div>
+
+    <!-- Atmospheric Purple Canvas & Red Accents -->
+    <div class="bg-environment">
+        <div class="bg-blob blob-1"></div>
+        <div class="bg-blob blob-2"></div>
+        <div class="bg-noise"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-accent">❖</span> Fanya Arthalita Fauzi
+            </a>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-nav="home">HOME</a></li>
+                    <li><a href="about.html" class="nav-link active" data-nav="about">ABOUT</a></li>
+                    <li><a href="about.html#contact" class="nav-link" data-nav="contact">CONTACT</a></li>
+                    <li><a href="assets/cv/your-cv.pdf" class="nav-btn-cv" target="_blank" download>CV ↘</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="about-page-wrapper">
+
+        <!-- Editorial About Hero -->
+        <section class="section about-intro-section">
+            <div class="container">
+                <div class="about-intro-grid">
+                    
+                    <div class="about-image-column">
+                        <div class="profile-frame">
+                            <img src="assets/cv/ProfilePic.jpeg" alt="Fanyeaa's ProfilePic" class="profile-image" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80'">
+                            <div class="red-corner-accent top-left"></div>
+                            <div class="red-corner-accent bottom-right"></div>
+                        </div>
+                    </div>
+
+                    <div class="about-text-column">
+                        <div class="section-tag">A Little bit about me</div>
+                        <h1 class="about-main-title">Hi, I'm <span class="text-highlight">Fanya!</span></h1>
+                        
+                        <p class="about-bio-lead">
+                            I am a game programmer focused on crafting gameplay mechanics. I am now still learning a lot about GameDev Programming especially to optimize a game!
+                        </p>
+                        
+                        <p class="about-bio-body">
+                            My work sits at the intersection of gameplay logic and AI behaviour in Unity.<br><br> 
+                            I’m a Game Programmer focused on gameplay systems, game logic, and AI behaviour. I’m also exploring game optimization, particle effects, and the underlying mechanics that make different gameplay systems and genres work.<br>
+                            Beyond programming, I have a background in simple 2D art, allowing me to approach game development from both a technical and visual perspective.
+                        </p>
+
+                        <div class="about-cv-action">
+                            <a href="assets/cv/your-cv.pdf" class="btn btn-primary" target="_blank" download>
+                                View MY CV <span class="btn-arrow">↘</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- MY PLAYGROUND Section -->
+        <section class="section playground-section" id="playground">
+            <div class="container">
+                <div class="playground-header">
+                    <div class="section-tag">Where The Bugs Live</div>
+                    <h2 class="playground-title">MY PLAYGROUND</h2>
+                    <p class="playground-subtitle">Core engineering domains, languages, and technical disciplines I work with daily.</p>
+                </div>
+
+                <!-- Medium-sized Feature Skill Boxes Grid -->
+                <div class="playground-grid">
+                    
+                    <div class="playground-card">
+                        <div class="card-red-accent"></div>
+                        <div class="card-icon">🎮</div>
+                        <h3 class="card-title">GAMEPLAY PROGRAMMING</h3>
+                        <p class="card-desc">Designing smooth player controllers, interactive mechanics and game logics.</p>
+                        <div class="card-tech">C# • Unity • Gameplay Mechanics</div>
+                    </div>
+
+                    <div class="playground-card">
+                        <div class="card-red-accent"></div>
+                        <div class="card-icon">🧠</div>
+                        <h3 class="card-title">GAME AI &amp; BEHAVIOR</h3>
+                        <p class="card-desc">Engineering enemy behavior with finite state machines and navmesh.</p>
+                        <div class="card-tech">Finite State Machines • NavMesh</div>
+                    </div>
+
+                    <div class="playground-card">
+                        <div class="card-red-accent"></div>
+                        <div class="card-icon">🎨</div>
+                        <h3 class="card-title">2D ARTIST</h3>
+                        <p class="card-desc">Designing and producing simple 2D assets such as characters, items, and environments.</p>
+                        <div class="card-tech">Adobe Photoshop • Medibang Paint</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-header">
+                        <div class="section-tag">FIND ME</div>
+                        <h2 class="contact-title">LET'S CONNECT</h2>
+                        <p class="contact-subtitle">Interested in working together or talking about games?</p>
+                    </div>
+
+                    <div class="social-links-grid">
+                        <a href="https://instagram.com/litawoah" target="_blank" class="social-button" rel="noopener">
+                            <span class="social-icon">📸</span>
+                            <div class="social-details">
+                                <span class="platform">Instagram</span>
+                                <span class="handle">@litawoah</span>
+                            </div>
+                            <span class="arrow">↗</span>
+                        </a>
+
+                        <a href="https://youtube.com/@LitaaLux" target="_blank" class="social-button" rel="noopener">
+                            <span class="social-icon">🎬</span>
+                            <div class="social-details">
+                                <span class="platform">YouTube</span>
+                                <span class="handle">@LitaaLux</span>
+                            </div>
+                            <span class="arrow">↗</span>
+                        </a>
+
+                        <a href="https://https://www.linkedin.com/in/fanya-arthalita-fauzi-2184b5307/" target="_blank" class="social-button" rel="noopener">
+                            <span class="social-icon">💼</span>
+                            <div class="social-details">
+                                <span class="platform">LinkedIn</span>
+                                <span class="handle">in/fanya-arthalita-fauzi</span>
+                            </div>
+                            <span class="arrow">↗</span>
+                        </a>
+
+                        <a href="mailto:fanya.arthalita.fauzi@gmail.com" class="social-button" rel="noopener">
+                            <span class="social-icon">✉️</span>
+                            <div class="social-details">
+                                <span class="platform">Direct Email</span>
+                                <span class="handle">fanya.arthalita.fauzi<br>@gmail.com</span>
+                            </div>
+                            <span class="arrow">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p class="copyright">&copy; 2026 Fanya Arthalita Fauzi. All rights reserved.</p>
+                <p class="footer-role">Game Programmer & Unity Developer</p>
+            </div>
+            <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+                <span>Top</span> ↑
+            </button>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/about.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

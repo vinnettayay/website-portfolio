@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanyeaa's Devwork</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="project">
+
+    <!-- Page Transition Curtain -->
+    <div class="page-transition-curtain" id="page-curtain"></div>
+
+    <!-- Atmospheric Purple Canvas & Red Accents -->
+    <div class="bg-environment">
+        <div class="bg-blob blob-1"></div>
+        <div class="bg-blob blob-2"></div>
+        <div class="bg-noise"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-accent">❖</span> Fanya Arthalita Fauzi
+            </a>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active" data-nav="home">HOME</a></li>
+                    <li><a href="about.html" class="nav-link" data-nav="about">ABOUT</a></li>
+                    <li><a href="about.html#contact" class="nav-link" data-nav="contact">CONTACT</a></li>
+                    <li><a href="assets/cv/your-cv.pdf" class="nav-btn-cv" target="_blank" download>CV ↘</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-detail-wrapper" id="project-detail-content">
+        <!-- Javascript dynamic project injection -->
+        <div class="container project-loading">
+            <div class="loader-spinner"></div>
+            <p>Loading Game Project Systems...</p>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal for Gallery Images -->
+    <div class="lightbox-modal" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p class="copyright">&copy; 2026 Fanya Arthalita Fauzi. All rights reserved.</p>
+                <p class="footer-role">Game Programmer & Unity Developer</p>
+            </div>
+            <a href="index.html#projects" class="back-to-top">
+                <span>← Back to Projects</span>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
